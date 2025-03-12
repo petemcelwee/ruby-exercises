@@ -68,7 +68,7 @@ RSpec.describe 'Strings' do
   it 'test 8' do
     greeting = "Hello!!"
     # In place of the line below, call a method to achieve the expected output.
-    actual = greeting.
+    actual = greeting.delete_suffix('!')
     expected = "Hello!"
 
     expect(actual).to eq(expected)
